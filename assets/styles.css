@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(166, 166, 224);
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+section,figure,img{
+    margin-top: auto;
+}
+nav {
+    background-color: aqua;
+    height: 30px;
+    max-width: fit-content;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    max-height: fit-content;
+    text-align: right;
+    }
+section{
+    background-color: rgb(0, 255, 255);
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    max-height: fit-content;
+}
+h1 {
+    color: red;
+}
+h2 {
+    color: rgba(79, 53, 4, 0.829);
+    text-align: center;
+}
+section1,h3,p{
+    display: block;
+    text-align: center;
+    min-height: 0%;
+}
+a{
+    display: inline-block;
+    width: 8rem;
+    height: 0,1rem;
+    /*color: rgb(255, 168, 47);*/
+    color: black;
+    background-color: rgb(0, 238, 255);
+    text-decoration: none;
+    border-radius: 1rem;
+    text-align:center;
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+a:hover{
+    background-color: greenyellow;
+    color: orange;
+    text-align: center;
+}
+a:active{
+    background-color: rgb(241, 19, 19);
+}
+section, figure {
+    margin-top: auto;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+
+.imagen-1{
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+}
+.imagen-2{
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+}
+.imagen-3{
+    width: 200px;
+    height: 150px;
+    margin-left: 10px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.navegacion{
+    margin-top: -25rem;
+}      
