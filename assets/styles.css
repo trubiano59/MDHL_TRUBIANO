@@ -4,19 +4,22 @@ body{
     margin: 0;
     padding: 0;
 }
-section,figure,img{
+section figure img{
     margin-top: auto;
 }
 nav {
     background-color: aqua;
     height: 30px;
-    max-width: fit-content;
     margin-top: 0;
     margin: 0;
     padding: 0;
     max-height: fit-content;
     text-align: right;
+    align-items: flex-end;
     }
+/*a{
+    color: red;
+}*/
 section{
     background-color: rgb(0, 255, 255);
     margin-top: 0;
@@ -25,28 +28,27 @@ section{
     max-height: fit-content;
 }
 h1 {
-    color: red;
+    color: rgb(39, 2, 2);
 }
 h2 {
     color: rgba(79, 53, 4, 0.829);
     text-align: center;
 }
-section1,h3,p{
+article, section, h3, p{
     display: block;
     text-align: center;
     min-height: 0%;
 }
 a{
     display: inline-block;
-    width: 8rem;
-    height: 0,1rem;
-    /*color: rgb(255, 168, 47);*/
+    width:10rem;
+    height: 0,5rem;
     color: black;
     background-color: rgb(0, 238, 255);
     text-decoration: none;
     border-radius: 1rem;
     text-align:center;
-    padding-top: 1rem;
+    padding-top: 0,4rem;
     font-weight: bolder;
 }
 a:hover{
@@ -57,7 +59,7 @@ a:hover{
 a:active{
     background-color: rgb(241, 19, 19);
 }
-section, figure {
+section figure {
     margin-top: auto;
 }
 figure {
@@ -67,12 +69,11 @@ figure {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
-
-
 .imagen-1{
     width: 200px;
     height: 150px;
     margin-right: 10px;
+    
 }
 .imagen-2{
     width: 200px;
@@ -86,8 +87,38 @@ figure {
 }
 .contenedor{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    height: 75vh;
+    background-color: rgb(187, 138, 77);
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .navegacion{
     margin-top: -25rem;
-}      
+}
+.cards {
+    min-width :  10 rem ;
+    flex-direction:bending;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    margin : auto;
+    padding : 5 rem;
+}
+
+.cards_ sectión_tabla , .tarjetas _ tarjeta {
+    position: relative;
+    min-width :  20 rem ;
+    flex-direction: col;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    text-align:flex;
+    box-shadow: 0  0  15 px  5 px  rgba ( 0 ,  0 ,  0 ,  0.425 );
+    border-radius: 1 rem ;
+}
+   
