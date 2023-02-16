@@ -1,12 +1,14 @@
-body{
+body {
     background-color: rgb(166, 166, 224);
     color: black;
     margin: 0;
     padding: 0;
 }
-section figure img{
+
+section figure img {
     margin-top: auto;
 }
+
 nav {
     background-color: aqua;
     height: 30px;
@@ -16,52 +18,64 @@ nav {
     max-height: fit-content;
     text-align: right;
     align-items: flex-end;
-    }
+}
+
 /*a{
     color: red;
 }*/
-section{
+section {
     background-color: rgb(0, 255, 255);
     margin-top: 0;
     margin: 0;
     padding: 0;
     max-height: fit-content;
 }
+
 h1 {
     color: rgb(39, 2, 2);
 }
+
 h2 {
     color: rgba(79, 53, 4, 0.829);
     text-align: center;
 }
-article, section, h3, p{
+
+article,
+section,
+h3,
+p {
     display: block;
     text-align: center;
     min-height: 0%;
 }
-a{
+
+a {
     display: inline-block;
-    width:10rem;
-    height: 0,5rem;
+    width: 10rem;
+    height: 0, 5rem;
     color: black;
     background-color: rgb(0, 238, 255);
     text-decoration: none;
     border-radius: 1rem;
-    text-align:center;
-    padding-top: 0,4rem;
+    text-align: center;
+    padding-top: 0, 4rem;
     font-weight: bolder;
 }
-a:hover{
+
+a:hover {
     background-color: greenyellow;
     color: orange;
     text-align: center;
 }
-a:active{
+
+a:active {
     background-color: rgb(241, 19, 19);
 }
+
 section figure {
     margin-top: auto;
 }
+
 figure {
     display: block;
     margin-block-start: 1em;
@@ -69,23 +83,27 @@ figure {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
-.imagen-1{
+
+.imagen-1 {
     width: 200px;
     height: 150px;
     margin-right: 10px;
-    
+
 }
-.imagen-2{
+
+.imagen-2 {
     width: 200px;
     height: 150px;
     margin-right: 10px;
 }
-.imagen-3{
+
+.imagen-3 {
     width: 200px;
     height: 150px;
     margin-left: 10px;
 }
-.contenedor{
+
+.contenedor {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -97,28 +115,66 @@ figure {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.navegacion{
+
+.navegacion {
     margin-top: -25rem;
 }
-.cards {
-    min-width :  10 rem ;
-    flex-direction:bending;
-    flex-wrap: nowrap;
-    text-align: center;
-    justify-content: center;
-    margin : auto;
-    padding : 5 rem;
+
+.cards .section_table{
+    width: 80%;
+
+    padding: .5rem;
 }
 
-.cards_ sectión_tabla , .tarjetas _ tarjeta {
-    position: relative;
-    min-width :  20 rem ;
-    flex-direction: col;
-    text-align: center;
+.cards {
+    min-width: 10rem;
+    
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    text-align:flex;
-    box-shadow: 0  0  15 px  5 px  rgba ( 0 ,  0 ,  0 ,  0.425 );
-    border-radius: 1 rem ;
+
+    margin: auto;
+    padding-top: 1rem;
+
+    gap: 2rem;
+    
 }
-   
+
+
+.cards .section_table, .cards .card{
+    position: relative;
+
+    min-width: 20rem;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    align-self: flex-start;
+    text-align: center;
+
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.425);
+    border-radius: 1rem;
+
+    padding-top: 1rem;
+    
+}
+
+.cards .section_table img, .cards .card img{
+    height: 4rem;
+}
+.cards .section_table h3, .cards .card h3{
+    padding-top: 1rem;
+}
+.cards .section_table p, .cards .card p{
+    padding-top: 1rem;
+}
+
+
+.banner {
+    width: 100%;
+}

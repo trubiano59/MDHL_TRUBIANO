@@ -1,159 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="imagen/png" href="./assets/favicon.ico.ico">
-    <title>Mighty Ducks Hockey League</title>
-    <link rel="stylesheet" href="./assets/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="imagen/png" href="./assets/favicon.ico.ico">
+  <title>Mighty Ducks Hockey League</title>
+  <link rel="stylesheet" href="./assets/styles.css">
 </head>
+
 <body>
-    <header>
-        <!--Barra de nav-->
-        <h1 id="main-title" class="title">Mighty Ducks Hockey League </h1>
-        <section>
-        <nav>
-            <a href="#">Home</a>
-            <a href="./about.html">About MDHL </a>
-            <a href="./contact.html">contact</a>
-            <a href =" ./game_info.html " >Game_Information</a>
-            <a href =" ./rules.html " >Rules</a>  
-        </nav>
-       </section>  
-    </header>
-    <!--Banner con foto-->
-    <main>
-        <div>
-            <section>
-                <figure>
-                    <img src="assets/design2_image1.jpg" alt=" jugadores de hockey " width="100%" height="100%">
-                </figure>
-                <h2> Game information </h2>
-            </section>
-        </div>
-        <figure>
-            <img src="assets/Logo_Mighty_ducks-01.png" alt="mi_logo" id="logo">
-        </figure>
+  <header>
+    <!--Barra de nav-->
 
-        <div  clase =" card " >
+    <section>
+      <h1 id="main-title" class="title">Mighty Ducks Hockey League </h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="./about.html">About MDHL </a>
+        <a href="./contact.html">contact</a>
+        <a href=" ./game_info.html ">Game_Information</a>
+        <a href=" ./rules.html ">Rules</a>
+      </nav>
+    </section>
+  </header>
+  <!--Banner con foto-->
+  <main>
 
+    <section>
+      <figure>
+        <img src="assets/design2_image1.jpg" alt=" jugadores de hockey " class="banner">
+      </figure>
+      <h2> Game information </h2>
+    </section>
 
-        <clase de section  =" tabla_sección ">
+    <figure>
+      <img src="assets/Logo_Mighty_ducks-01.png" alt="mi_logo" id="logo">
+    </figure>
 
+    <div class="cards">
 
-          <table>
+      <section class="section_table">
 
+        <table>
 
-            <título>
-              <h3> Fall Schedule </h3>
-              <span> * All games take place on Saturday. </span>
-            </título>
+          <caption>
+            <h3>Fall Schedule</h3>
+            <span>*All games take place on</span>
+          </caption>
 
+          <thead>
+            <tr>
+              <th>SEPTEMBER</th>
+              <th>TEAMS</th>
+              <th>LOCATIONS</th>
+              <th>TIMES</th>
+            </tr>
+          </thead>
+          <tbody>
 
-            <header>
-              <tr> 
-                <th> SEPTEMBER </th>
-                <th> Teams  </th>
-                <th> Location </th>
-                <th> time </th>
-              </tr> 
-            </header>
+            <!-- prime fila -->
+            <tr>
+              <td rowspan="2" class="td-margin">9/01</td>
+              <td>U1 and U4</td>
+              <td>Katzenmaier</td>
+              <td>9:30 a.m.</td>
+            </tr>
 
-            <tbody>
-            
+            <tr>
+              <td class="td-margin">U3 and U2</td>
+              <td class="td-margin">Greenbay</td>
+              <td class="td-margin">1:00 p.m</td>
+            </tr>
+            <!-- fin de la primera fila -->
 
+            <!-- segunda fila -->
+            <tr>
+              <td rowspan="2" class="td-margin">9/08</td>
+              <td>U5 and U6</td>
+              <td>Howard a Yeager</td>
+              <td>9:30 a.m.</td>
+            </tr>
 
-              <!-- fila primera-->
-              <tr> 
-                <td  rowspan =" 2 " clase =" td-margen " > 9/01 </td>
-                <td> U1 y U4 </td>
-                <td> Katzenmaier </td>
-                <td> 9:30 am </td>
-              </tr> 
+            <tr>
+              <td class="td-margin">U6 and U1</td>
+              <td class="td-margin">Merjorie P Hart</td>
+              <td class="td-margin">1:00 p.m</td>
+            </tr>
+            <!-- fin de segunda fila -->
 
+            <!-- tercera fila -->
+            <tr>
+              <td rowspan="2" class="td-margin">9/15</td>
+              <td>U2 and U4</td>
+              <td>North</td>
+              <td>9:30 a.m.</td>
+            </tr>
 
-              <tr> 
-                <td  class =" td-margen " > U3 y U2 </td>
-                <td  clase =" td-margen " > Greenbay </td>
-                <td  clase =" td-margen " > 1:00 p. m. </td>
-              </tr> 
-              <!-- fin de fila primera-->
+            <tr>
+              <td class="td-margin">U3 and U5</td>
+              <td class="td-margin">AJ Katzenmaier</td>
+              <td class="td-margin">1:00 p.m</td>
+            </tr>
+            <!-- fin tercera fila -->
 
+            <!-- cuerta fila -->
+            <tr>
+              <td rowspan="2" class="td-margin">9/22</td>
+              <td>U1 and U3</td>
+              <td>South</td>
+              <td>9:30 a.m.</td>
+            </tr>
 
-              <!-- fila segunda -->
-              <tr> 
-                <td  rowspan =" 2 " clase =" td-margen " > 9/08 </td>
-                <td> U5 y U6 </td>
-                <td> Howard a Yeager </td>
-                <td> 9:30 am </td>
-              </tr> 
+            <tr>
+              <td class="td-margin">U2 and U6</td>
+              <td class="td-margin">Howard A Yeager</td>
+              <td class="td-margin">1:00 p.m</td>
+            </tr>
+            <!-- fin cuarta fila -->
 
-              <tr> 
-                <td  class =" td-margen " > U6 y U1 </td>
-                <td  class =" td-margen " > Merjorie P Hart </td>
-                <td  clase =" td-margen " > 1:00 p. m. </td>
-              </tr> 
-              <!-- fin fila segunda  -->
+            <tr>
+              <td>9/29</td>
+              <td>U4 and U5</td>
+              <td>Greenbay</td>
+              <td>9:30 a.m</td>
+            </tr>
 
+          </tbody>
+        </table>
+      </section>
 
-              <!--  fila tercera -->
-              <tr> 
-                <td  rowspan =" 2 " clase =" td-margen " > 9/15 </ td >
-                <td > U2 y U4 </td>
-                <td > Norte </td>
-                <td > 9:30 am </td>
-              </tr> 
-
-
-              <tr> 
-                <td  class =" td-margen " > U3 y U5 </td>
-                <td  class =" td-margen " > AJ Katzenmaier </td>
-                <td  clase =" td-margen " > 1:00 p. m. </td>
-              </tr> 
-              <!-- fin fila tercera  -->
-
-
-              <!-- fila cuarta-->
-              <tr> 
-                <td  rowspan =" 2 " clase =" td-margen " > 9/22 </td>
-                <td> U1 y U3 </td>
-                <td> Sur </td>
-                <td> 9:30 am </td>
-              </tr> 
-
-              <tr> 
-                <td  class =" td-margen " > U2 y U6 </td>
-                <td  class =" td-margen " > Howard A Yeager </td>
-                <td  clase =" td-margen " > 1:00 p. m. </td>
-              </tr> 
-              <!-- fin fila cuarta -->
-
-
-              <tr>
-                <td> 9/29 </td>
-                <td> U4 y U5 </td>
-                <td> Greenbay </td>
-                <td> 9:30 am </td>
-              </tr> 
-
-
-            </tbody>
-          </table>
-        </section>
-        <artícle>
+      <article>
         <h3> Facility Type: Outdoor</h3>
         <p>Additional Information: If deemed necessary by MDHL ¡ames may be shortened
-           or cancelled due to extreme weather conditions. </p>
+          or cancelled due to extreme weather conditions. </p>
         <p> Please direct all questions to: Michael Randall, League Coordinator </p>
         <div>
           <p> Phone:(630) 690-8132 </p>
-          <p> Email: <a  href =" mailto:michael.randall@chihockey.org " > michael.randall@chihockey.org </a> </p>
-        </div> 
-      </artícle>
+          <p> Email: <a href=" mailto:michael.randall@chihockey.org "> michael.randall@chihockey.org </a> </p>
+        </div>
+      </article>
 
-    </div> 
+    </div>
 
-</main>
+  </main>
 </body>
+
 </html>
