@@ -112,8 +112,12 @@ figure {
     margin: auto;
     padding: 1rem;
     gap: 1rem;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    /*justify-content: space-evenly;*/
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    
 }
 
 .navegacion {
@@ -177,4 +181,125 @@ figure {
 
 .banner {
     width: 100%;
+}
+
+/*cambios desde aca*/
+
+/* START FORM */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label_flex {
+    display: flex;
+    
+    margin: auto;
+}
+
+fieldset {
+    border: none;
+}
+
+.submit {
+    width: 10rem;
+
+    text-align: center;
+    margin: auto;
+
+    padding: .5rem 2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    border-radius: 1rem;
+    border: none;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    color: #EEEDEC;
+    background-color: #20907E;
+
+    transition: .5s ease-out;
+}
+
+.submit:hover{
+    color: #000;
+    background-color: #e4d761;
+}
+/* MAPS */
+.section_game {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+.maps {
+    display: flex;
+
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+
+    gap: 1rem;
+}
+
+.maps, article {
+    padding: 1rem;
+    
+}
+
+.map_l{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.map_r{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.maps {
+    flex-wrap: wrap;
+}    
+
+.cards .section_table table thead tr th{
+    padding: 0;
+}
+
+.area_left {
+    width: 5rem;               
+}
+
+.area_left header {
+    width: 5rem; 
+    font-size: .7rem;
+}
+
+.area_right {
+    width: calc(100% - 5rem);
+    
+}
+
+.area_left header figure img {
+    width: 5rem;
+}
+
+
+@media (max-width: 1000px) {
+.games, .cards {
+    flex-wrap: wrap;
+}
+
+.cards .section_table table thead tr th{
+    padding: .8rem;
+}
 }
